@@ -1,0 +1,26 @@
+﻿    <!--This template was created by Coder Rant. Find more WinUI 3 tutorials at https://www.coderrant.com-->
+    <Window
+    x:Class="WinUI_3_Buttons.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinUI_3_Buttons"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <!--Base Grid-->
+    <Grid>
+        <Grid.RowDefinitions>
+            
+            <!-- Simple Button -->
+            <RowDefinition/>
+            <!-- Image Button -->
+            <RowDefinition/>
+            <!-- Long Text Button -->
+            <RowDefinition/>
+            <!-- Coloured Button -->
+            <RowDefinition/>
+            
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>
