@@ -15,8 +15,6 @@
             <RowDefinition/>
             <!-- Image Button -->
             <RowDefinition/>
-            <!-- Long Text Button -->
-            <RowDefinition/>
             <!-- Coloured Button -->
             <RowDefinition/>
         </Grid.RowDefinitions>
@@ -40,20 +38,6 @@
             VerticalAlignment="Top" HorizontalAlignment="Center"
             Margin="20" Padding="0"
             FontSize="20" FontWeight="Bold"/>
-
-        <!-- Button -->
-
-        <!-- Button End -->
-
-        <!--Long Text Button-->
-        <TextBlock 
-            
-            Text="Large Content Button" Grid.Row="2"
-            VerticalAlignment="Top" HorizontalAlignment="Center"
-            Margin="20" Padding="0"
-            FontSize="20" FontWeight="Bold"/>
-
-        <!-- Button -->
 
         <!-- Button End -->
 
